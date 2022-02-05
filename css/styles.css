@@ -299,6 +299,7 @@ figure {
 
 img,
 svg {
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -4493,7 +4494,7 @@ textarea.form-control-lg {
   color: #0000ff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(0, 0, 255);
   border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
