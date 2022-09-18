@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Managing Speaker Queue with Sessionize</title>
+</head>
+<body>
+    <h1>Managing Speaker Queue with Sessionize</h1>
+    <p>Sessionize has 5 states:</p>
+    <ol>
+        <li>Nominated - new submissions arrive in this state - for Boston Azure these are typically self-nominations</li>
+        <li>Accept Queue - we'd like to do this talk, but have not confirmed a date with the speaker</li>
+        <li>Accepted - scheduled</li>
+        <li>Decline Queue - usually this is coupled with one Accepted Queue item and communications can be bundled</li>
+        <li>Declined - and after notified this one is declined</li>
+    </ol>
+
+    <p>So here's a normal way for this to play out: speaker submits three talks; one is selected and goes
+        into the Accept Queue, while two go into the Decline Queue; a communication to this effect ("hey, we'd like to 
+        proceed with this talk, and here are a few proposed dates"); once a date is confirmed, the main talk
+        can move to the Accepted state and the others can go into Declined state.
+    </p>
+
+    <p>Organizer can see which speakers need attention 
+        from <a href="https://sessionize.com/app/organizer/sessions/7217#o=DateDesc&h=-1,-2">the Sessionize dashboard for Boston Azure</a>.</p>
+</body>
+</html>
+
